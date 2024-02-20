@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(247, 227, 210);
+}
+.main-heading{
+  position: absolute;
+  top: 10px;
+  left: 440px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 27px;
+}
+#search{
+  position: relative;
+  margin-top: 6%;
+  left: 40%;
+  background-color: peachpuff;
+  padding: 15px 35px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px black;
+  border: 1px solid black;
+}
+.card{
+ background-color: rgb(10, 9, 10);
+ width: 50%;
+ height: fit-content;
+ position: absolute;
+ left: 20%;
+ top: 130px;
+ border: 2px solid black;
+ color: white;
+ border-radius: 30px;
+}
+.card .avatar{
+  width: 20%;
+  position: relative;
+  top: 10px;
+  left: 25px;
+  border-radius: 85px;
+  border: 2px solid #fff;
+}
+.userinfo h2{
+  position: relative;
+  left:35%;
+  bottom:80px;
+}
+.userinfo p{
+  position:relative;
+  left:35%;
+  bottom:75px;
+}
+.info{
+  position: relative;
+  left:220px;
+  bottom: 72px;
+}
+.info li{
+  display: inline-block;
+  padding: 2px;
+}
+.info strong{
+  margin-right: 12px;
+  font-style: italic;
+}
+#repos{
+  position: relative;
+  bottom: 50px;
+  max-width: 100%;
+}
+#repos .repo {
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border: 2px solid silver;
+  padding: 4px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 3px 2px 5px;
+
+}
